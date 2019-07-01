@@ -6,7 +6,7 @@ Multivariate time series data is common in today's world, in IT, finance, indust
 
 ## The Experiment
 
-In this project, I am going to use explore traditional machine learning methods and a few deep learning methods on multivariate time-series dataset(s) to see if it can efficiently detect anomaly. For example, GRU (Gated recurrent units) and LSTM (long short-term memory) can help discover correlations among time sequences; CNN (convolutional neural network) combined with autoencoder can be used to construct signature matrices. A mix and match is also possible.
+In this project, I am going to explore traditional machine learning methods and deep learning methods on multivariate time-series dataset(s) to see if it can efficiently detect anomaly. For example, GRU (Gated recurrent units) and LSTM (long short-term memory) can help discover correlations among time sequences; CNN (convolutional neural network) combined with autoencoder can be used to construct signature matrices. A mix and match is also possible.
 
 The data is unlabeled so it is unsupervised learning. It is a classification problem where the model has to decide if there is a anomaly within a given period of time. It is also a regression problem from a forecasting point of view. Data is highly imbalanced and may not come with anomaly. For experiment, I might hand craft some data or find a dataset with known anomaly. A web interface is likely to be included.
 
@@ -20,14 +20,14 @@ Time (s),CO (ppm),Humidity (%r.h.),Temperature (C),Flow rate (mL/min),Heater vol
 0.3090,0.0000,55.8400,26.6200,241.6323,0.2112,2.1314,5.3552,9.7569,6.3188,9.4472,10.5769,13.6317,21.9829,16.1902,24.2780,31.1014,34.7193,31.7505,41.9167
 ```
 
-## The Resource
+## Resources
 
 Domino or AWS with GPU. Details will come later.
 
-## References:
+## References
 - [Anomaly detection](https://en.wikipedia.org/wiki/Anomaly_detection)
 - [A Deep Neural Network for Unsupervised Anomaly Detection and Diagnosis in Multivariate Time Series Data](https://arxiv.org/abs/1811.08055)
 - [FuseAD: Unsupervised Anomaly Detection in Streaming Sensors Data by Fusing Statistical and Deep Learning Models](https://www.mdpi.com/1424-8220/19/11/2451/htm)
-- [Multidimensional Time Series Anomaly Detection: AGRU-based Gaussian Mixture Variational Autoencoder Approach](http://proceedings.mlr.press/v95/guo18a/guo18a.pdf)
+- [Multidimensional Time Series Anomaly Detection: A GRU-based Gaussian Mixture Variational Autoencoder Approach](http://proceedings.mlr.press/v95/guo18a/guo18a.pdf)
 - [Deep learning for anomaly detectionin multivariate time series data](https://users.informatik.haw-hamburg.de/~ubicomp/arbeiten/master/assendorp.pdf)
 - [NetWalk: A Flexible Deep Embedding Approach for Anomaly Detection in Dynamic Networks](https://www.researchgate.net/publication/329087157_A_Deep_Neural_Network_for_Unsupervised_Anomaly_Detection_and_Diagnosis_in_Multivariate_Time_Series_Data)
